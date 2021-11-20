@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+}
+
+.login {
+  width: 360px;
+
+  font-family: 'Comfortaa', cursive;
+}
+
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  border-radius: 10px;
+  max-width: 360px;
+  padding: 45px;
+  text-align: center;
+}
+
+.form .input-test {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.form .input-test:focus {
+  background: #dbdbdb;
+}
+
+.form button {
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4b6cb7;
+  width: 100%;
+  border: 0;
+  border-radius: 5px;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+.form button:active {
+  background: #395591;
+}
+
+.form span {
+  font-size: 75px;
+  color: #4b6cb7;
+}
+.remember {
+  text-align: left;
+  font-size: 13.5px;
+  display: block;
+  cursor: pointer;
+}
+.forgot-password {
+  text-align: right;
+  font-size: 13.5px;
+  color: #293f6d;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+.form .error {
+  border: 2px solid #a40b0b;
+}
+.form .error::placeholder {
+  color: red;
+  opacity: 1; /* Firefox */
+}
